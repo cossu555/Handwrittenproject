@@ -10,3 +10,6 @@ data = np.array(data)
 print(data.shape)
 print(type(data))
 
+y= data[:, 0]   #di tutti i campioni prende i y (0)
+x= data[:, 1:]  #di tutti i campioni prendo l'immagine (1,785)
+
