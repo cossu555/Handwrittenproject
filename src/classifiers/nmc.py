@@ -16,9 +16,10 @@ class NMC:
     @property
     def centroids(self):
         return self._centroids
+    #il setter poi va commentato, probabilemnte per dei test
     #@centroids.setter
     #def centroids(self,value):
-    #    return  self._centroids = value
+    #    self._centroids = value
 
     def fit(self, xtr,ytr): #riceve i dati di train
 
